@@ -1,0 +1,15 @@
+{
+  "name": "backend-tests",
+  "version": "1.0.0",
+  "description": "Playwright API Testing Project",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^22.15.30"
+  }
+}
